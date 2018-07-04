@@ -1,6 +1,6 @@
 # Bootstrap_MVC
 
-![screenshot_hybrid_app](./screenshot_hybrid_app.jpg)
+![WIFI_Infobank_screenshot](./WIFI_Infobank_screenshot.jpg)
 
 
 ## Getting Started
