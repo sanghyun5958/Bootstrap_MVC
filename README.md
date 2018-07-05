@@ -4,25 +4,43 @@
 ## Screenshot
 
 ![WIFI_Infobank_screenshot](./WIFI_Infobank_screenshot.jpg)
+
+## About project
 URL : http://wifiinfobank.unapcict.org/wifiinfobank/index.php
-
-
-### Prerequisites
-
 What things you need to install the software and how to install them
 
 ```
 Give examples
 ```
 
-### Installing
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+
+### Model
 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
 
 ```
-Give the example
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+class Topic extends CI_Controller {
+    function index(){
+        $this->load->view('head');
+        $this->load->view('main');
+        $this->load->view('footer');
+    }
+    function get($id){
+        $this->load->view('head');
+        $this->load->view('get', array('id'=>$id));
+        $this->load->view('footer');
+    }
+}
+?>
 ```
 
 And repeat
@@ -57,11 +75,7 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
