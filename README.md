@@ -4,7 +4,7 @@
 ## Screenshot
 
 ![WIFI_Infobank_screenshot](./WIFI_Infobank_screenshot.jpg)
-
+URL : http://wifiinfobank.unapcict.org/wifiinfobank/index.php
 
 
 ### Prerequisites
