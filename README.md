@@ -26,7 +26,7 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```
+```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Topic extends CI_Controller {
     function index(){
