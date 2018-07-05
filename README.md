@@ -6,7 +6,7 @@
 ![WIFI_Infobank_screenshot](./WIFI_Infobank_screenshot.jpg)
 
 ## About project
-URL : http://wifiinfobank.unapcict.org/wifiinfobank/index.php
+URL : http://wifiinfobank.unapcict.org
 
 What things you need to install the software and how to install them
 
