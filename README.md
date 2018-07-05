@@ -21,7 +21,38 @@ Give examples
 * [Bootstrap](http://bootstrapk.com/) - Used to generate RSS Feeds
 
 
-### Model
+### PHP MVC Framework - Model
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+class Topic extends CI_Controller {
+    function index(){
+        $this->load->view('head');
+        $this->load->view('main');
+        $this->load->view('footer');
+    }
+    function get($id){
+        $this->load->view('head');
+        $this->load->view('get', array('id'=>$id));
+        $this->load->view('footer');
+    }
+}
+?>
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+### PHP MVC Framework - View
 
 A step by step series of examples that tell you how to get a development env running
 
