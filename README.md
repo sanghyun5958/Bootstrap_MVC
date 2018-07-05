@@ -6,19 +6,19 @@
 ![WIFI_Infobank_screenshot](./WIFI_Infobank_screenshot.jpg)
 
 ## About project
+
+I designed UI mockups and implemented end-to-end web applications using the CodeIgniter MVC framework and bootstrap front-end framework;
+
 URL : http://wifiinfobank.unapcict.org
-
-What things you need to install the software and how to install them
-
 ```
 Give examples
 ```
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [PHP MVC Framework](https://codeigniter.com/) - Dependency Management
+* [CodeIgniter Web Framework](https://codeigniter.com/) - The web framework used
+* [Bootstrap](http://bootstrapk.com/) - Used to generate RSS Feeds
 
 
 ### Model
