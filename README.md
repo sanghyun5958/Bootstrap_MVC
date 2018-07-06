@@ -9,16 +9,15 @@
 
 I designed UI mockups and implemented end-to-end web applications using the CodeIgniter MVC framework and bootstrap front-end framework;
 
-URL : http://wifiinfobank.unapcict.org
 ```
-Give examples
-```
-
 ## Built With
 
 * [PHP MVC Framework](https://codeigniter.com/) - Dependency Management
 * [CodeIgniter Web Framework](https://codeigniter.com/) - The web framework used
 * [Bootstrap](http://bootstrapk.com/) - Used to generate RSS Feeds
+```
+URL : http://wifiinfobank.unapcict.org
+
 
 
 ### PHP MVC Framework - Model
