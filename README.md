@@ -156,37 +156,104 @@ class Board_m extends CI_Model {
 
 ```
 
-And there are more php files by category
 
-```php
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Materials extends CI_Controller {
-	function __construct(){
-        parent::__construct();
-        $this->load->database();
-        $this->load->model('xx_model');
-	}
-	function index(){
-	}
-	function training_module(){
-		$this->load->view('head');
-		$this->load->view('training_module');
-		$this->load->view('footer');
-	}
-	function mobile_learning(){
-		$this->load->view('head');
-		$this->load->view('mobile_learning');
-		$this->load->view('footer');
-	}
-		function dica(){
-		$this->load->view('head');
-		$this->load->view('dica');
-		$this->load->view('footer');
-	}
-}
-?>
+### PHP MVC Framework - View (Bootstrap)
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```html
+<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    		<div class="container-fluid">
+    			
+    			<div class="navbar-header page-scroll">
+    				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    					<span class="sr-only">Toggle navigation</span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    				</button>
+    				<a href="/main/"><img src="/static/lib/bootstrap/img/logo.jpg"></a>
+    			</div>
+    			<!-- Collect the nav links, forms, and other content for toggling -->
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    				<ul class="nav navbar-nav navbar-right ">
+    					<li>
+    						<a href="/main/">HOME</a>
+    					</li>
+    					<li class="dropdown">
+    						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ABOUT<span class="caret"></span></a>
+    						<ul class="dropdown-menu" role="menu">
+    							<li>
+    								<a href="/about/aboutus/">What is WIFI? </a>
+    							</li>
+    							<li class="divider"></li>
+    							<li>
+    								<a href="/about/aboutus_2/">What is WIFI InfoBank?</a>
+    							</li>
+    							<li class="divider"></li>
+    						</ul>
+    					</li>
 
 ```
+xxx
+
+```html
+<div class="col-md-12">
+              <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                
+                <!-- Carousel items -->
+                <div class="carousel-inner carousel-zoom">
+                  <div class="active item">
+                    <img class="img-responsive" src="/static/lib/bootstrap/img/home-bg-1.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="img-responsive" src="/static/lib/bootstrap/img/home-bg-2.jpg">
+                    <div class="carousel-caption"></div>
+                  </div>
+
+```
+
+xxx
+
+```html
+<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    		<div class="container-fluid">
+    			
+    			<div class="navbar-header page-scroll">
+    				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    					<span class="sr-only">Toggle navigation</span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    				</button>
+    				<a href="/main/"><img src="/static/lib/bootstrap/img/logo.jpg"></a>
+    			</div>
+    			<!-- Collect the nav links, forms, and other content for toggling -->
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    				<ul class="nav navbar-nav navbar-right ">
+    					<li>
+    						<a href="/main/">HOME</a>
+    					</li>
+    					<li class="dropdown">
+    						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ABOUT<span class="caret"></span></a>
+    						<ul class="dropdown-menu" role="menu">
+    							<li>
+    								<a href="/about/aboutus/">What is WIFI? </a>
+    							</li>
+    							<li class="divider"></li>
+    							<li>
+    								<a href="/about/aboutus_2/">What is WIFI InfoBank?</a>
+    							</li>
+    							<li class="divider"></li>
+    						</ul>
+    					</li>
+
+```
+
 
 ## Running the tests
 
