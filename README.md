@@ -60,9 +60,7 @@ class Materials extends CI_Controller {
 		$this->load->view('mobile_learning');
 	}
 		function dica(){
-		$this->load->view('head');
 		$this->load->view('dica');
-		$this->load->view('footer');
 	}
 }
 ?>
