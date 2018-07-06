@@ -20,7 +20,7 @@ URL : http://wifiinfobank.unapcict.org
 
 
 ## Programming code description
-### PHP MVC Framework - Model
+### PHP MVC Framework - Controller
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -28,19 +28,131 @@ Say what the step will be
 
 ```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Main extends CI_Controller {
-    function __construct()
-    {       
+class Materials extends CI_Controller {
+	function __construct(){
         parent::__construct();
         $this->load->database();
         $this->load->model('xx_model');
-    }
+	}
 	
-    function index(){
-   		$this->load->view('head');
-   		$this->load->view('main');
-   		$this->load->view('footer');
+	function index(){
+	}
+	
+ 	   /**
+     	* 사이트 헤더, 푸터가 자동으로 추가된다.
+     	*/
+ 	public function _remap($method) {
+           // 헤더 include
+        	$this -> load -> view('header');
+ 
+        	if (method_exists($this, $method)) {
+         	   $this -> {"{$method}"}();
+        		}
+ 
+         // 푸터 include
+      		$this -> load -> view('footer');
+    	}
+ 	
+	function training_module(){
+		$this->load->view('training_module');
+	}
+	function mobile_learning(){
+		$this->load->view('mobile_learning');
+	}
+		function dica(){
+		$this->load->view('head');
+		$this->load->view('dica');
+		$this->load->view('footer');
+	}
+}
+?>
+
+```
+
+And there are more php files by category
+
+```php
+<?php
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+/**
+ *  게시판 메인 컨트롤러
+ */
+ 
+class Board extends CI_Controller {
+ 
+    function __construct() {
+        parent::__construct();
+        $this -> load -> database();
+        $this -> load -> model('board_m');
+        $this -> load -> helper(array('url', 'date'));
     }
+ 
+    /**
+     * 주소에서 메서드가 생략되었을 때 실행되는 기본 메서드
+     */
+    public function index() {
+        $this -> lists();
+    }
+ 
+    /**
+     * 사이트 헤더, 푸터가 자동으로 추가된다.
+     */
+    public function _remap($method) {
+        // 헤더 include
+        $this -> load -> view('header_v');
+ 
+        if (method_exists($this, $method)) {
+            $this -> {"{$method}"}();
+        }
+ 
+        // 푸터 include
+        $this -> load -> view('footer_v');
+    }
+ 
+    /**
+     * 목록 불러오기
+     */
+    public function lists() {
+        $data['list'] = $this -> board_m -> get_list();
+        $this -> load -> view('board/list_v', $data);
+    }
+ 
+}
+
+```
+
+### PHP MVC Framework - Model
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```php
+ 
+<?php
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+ 
+/**
+ * 공통 게시판 모델
+ */
+ 
+class Board_m extends CI_Model {
+    function __construct() {
+        parent::__construct();
+    }
+ 
+    function get_list($table = 'ci_board') {
+        $sql = "SELECT * FROM ".$table." ORDER BY board_id DESC";
+        $query = $this -> db -> query($sql);
+        $result = $query -> result();
+        // $result = $query->result_array();
+ 
+        return $result;
+    }
+ 
+}
 
 ```
 
@@ -75,47 +187,6 @@ class Materials extends CI_Controller {
 ?>
 
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### Built With
-```
-* PHP MVC Framework - Dependency Management
-* CodeIgniter Web Framework - The web framework used
-* Bootstrap - Used to generate RSS Feeds
-```
-
-
-### PHP MVC Framework - View
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```php
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Topic extends CI_Controller {
-    function index(){
-        $this->load->view('head');
-        $this->load->view('main');
-        $this->load->view('footer');
-    }
-    function get($id){
-        $this->load->view('head');
-        $this->load->view('get', array('id'=>$id));
-        $this->load->view('footer');
-    }
-}
-?>
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
