@@ -28,25 +28,52 @@ Say what the step will be
 
 ```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Topic extends CI_Controller {
+class Main extends CI_Controller {
+    function __construct()
+    {       
+        parent::__construct();
+        $this->load->database();
+        $this->load->model('xx_model');
+    }
+	
     function index(){
-        $this->load->view('head');
-        $this->load->view('main');
-        $this->load->view('footer');
+   		$this->load->view('head');
+   		$this->load->view('main');
+   		$this->load->view('footer');
     }
-    function get($id){
-        $this->load->view('head');
-        $this->load->view('get', array('id'=>$id));
-        $this->load->view('footer');
-    }
+
+```
+
+And there are more php files by category
+
+```php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+class Materials extends CI_Controller {
+	function __construct(){
+        parent::__construct();
+        $this->load->database();
+        $this->load->model('xx_model');
+	}
+	function index(){
+	}
+	function training_module(){
+		$this->load->view('head');
+		$this->load->view('training_module');
+		$this->load->view('footer');
+	}
+	function mobile_learning(){
+		$this->load->view('head');
+		$this->load->view('mobile_learning');
+		$this->load->view('footer');
+	}
+		function dica(){
+		$this->load->view('head');
+		$this->load->view('dica');
+		$this->load->view('footer');
+	}
 }
 ?>
-```
 
-And repeat
-
-```
-until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
