@@ -9,17 +9,21 @@
 
 I designed UI mockups and implemented end-to-end web applications using the CodeIgniter MVC framework and bootstrap front-end framework;
 
+### Built With
 ```
-## Built With
-
 * [PHP MVC Framework](https://codeigniter.com/) - Dependency Management
 * [CodeIgniter Web Framework](https://codeigniter.com/) - The web framework used
 * [Bootstrap](http://bootstrapk.com/) - Used to generate RSS Feeds
 ```
+
+* [PHP MVC Framework](https://codeigniter.com/) - Dependency Management
+* [CodeIgniter Web Framework](https://codeigniter.com/) - The web framework used
+* [Bootstrap](http://bootstrapk.com/) - Used to generate RSS Feeds
+
 URL : http://wifiinfobank.unapcict.org
 
 
-
+## Programming code description
 ### PHP MVC Framework - Model
 
 A step by step series of examples that tell you how to get a development env running
