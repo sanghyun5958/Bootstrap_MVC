@@ -12,9 +12,9 @@ I designed UI mockups and implemented end-to-end web applications using the Code
 
 ## Authors
 
-* **PHP MVC Framework** - * Dependency Management* - [PurpleBooth](https://github.com/PurpleBooth)
-* **CodeIgniter Web Framework** - * The web framework used* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Bootstrap** - * Used to generate RSS Feeds* - [PurpleBooth](https://github.com/PurpleBooth)
+* **PHP MVC Framework** - * Dependency Management* 
+* **CodeIgniter Web Framework** - * The web framework used*
+* *Bootstrap* -  Used to generate RSS Feeds 
 
 URL : http://wifiinfobank.unapcict.org
 
