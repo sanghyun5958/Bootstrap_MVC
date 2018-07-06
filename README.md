@@ -9,12 +9,12 @@
 
 I designed UI mockups and implemented end-to-end web applications using the CodeIgniter MVC framework and bootstrap front-end framework;
 
-### Built With
-```
-* PHP MVC Framework - Dependency Management
-* CodeIgniter Web Framework - The web framework used
-* Bootstrap - Used to generate RSS Feeds
-```
+
+## Authors
+
+* **PHP MVC Framework** - * Dependency Management* - [PurpleBooth](https://github.com/PurpleBooth)
+* **CodeIgniter Web Framework** - * The web framework used* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Bootstrap** - * Used to generate RSS Feeds* - [PurpleBooth](https://github.com/PurpleBooth)
 
 URL : http://wifiinfobank.unapcict.org
 
@@ -50,6 +50,14 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
+
+### Built With
+```
+* PHP MVC Framework - Dependency Management
+* CodeIgniter Web Framework - The web framework used
+* Bootstrap - Used to generate RSS Feeds
+```
+
 
 ### PHP MVC Framework - View
 
