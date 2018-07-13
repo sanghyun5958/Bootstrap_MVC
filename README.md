@@ -25,15 +25,16 @@ URL : http://wifiinfobank.unapcict.org
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Materials extends CI_Controller {
 	function __construct(){
-        parent::__construct();
-        $this->load->database();
-        $this->load->model('xx_model');
+	  parent::__construct();
+        $this -> load -> database();
+        $this -> load -> model('board_m');
+        $this -> load -> helper(array('url', 'date'));
+
 	}
 	
 	function index(){
 	}
 	
- 	
  	public function _remap($method) {
            // header include
         	$this -> load -> view('header');
