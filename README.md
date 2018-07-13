@@ -9,15 +9,15 @@
 
 To promote the events launched in 8 different countries and share e-learning ICT courses for female entrepreneurs in Asia and the Pacific.
 
+
+
+## My part of the project
+
+* *Model-View-Controller (MVC) Design Pattern for PHP* - I developed the web applications based on MVC pattern.
+* *Front-end web UI Framework* -  I designed 
+* *Photoshop* -  Used to generate RSS Feeds 
+
 URL : http://wifiinfobank.unapcict.org
-
-## Built With
-
-* *PHP MVC Framework* - Dependency Management 
-* *CodeIgniter Web Framework* - The web framework used
-* *Bootstrap* -  Used to generate RSS Feeds 
-
-
 
 
 ## Programming code description
