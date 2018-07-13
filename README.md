@@ -7,8 +7,9 @@
 
 ## The purpose of the project
 
-To share event informations and learning ICT skills for women’s entrepreneur in Asia and the Pacific by developing responsive and mobile-friendly website.
+To promote the events launched in 8 different countries and share e-learning ICT courses for female entrepreneurs in Asia and the Pacific.
 
+URL : http://wifiinfobank.unapcict.org
 
 ## Built With
 
@@ -16,7 +17,7 @@ To share event informations and learning ICT skills for women’s entrepreneur i
 * *CodeIgniter Web Framework* - The web framework used
 * *Bootstrap* -  Used to generate RSS Feeds 
 
-URL : http://wifiinfobank.unapcict.org
+
 
 
 ## Programming code description
