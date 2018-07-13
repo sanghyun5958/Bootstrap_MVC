@@ -93,10 +93,9 @@ class Board_m extends CI_Model {
 ### PHP MVC Framework - View (Bootstrap)
 
 ```html
-<div class="col-lg-12 col-md-12 col-sm-12">
-      <p>WIFI Suhuruliya modules are available in audiobook for .... </p>
-      
-	......
+		<div class="col-lg-12 col-md-12 col-sm-12">
+    		  <p>WIFI Suhuruliya modules are available in audiobook for .... </p>
+      	......
                    <div class="panel-group accordion" id="accordion">
                        <div class="panel panel-default">
                            <div class="panel-heading">
