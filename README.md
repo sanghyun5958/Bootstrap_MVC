@@ -92,32 +92,26 @@ class Board_m extends CI_Model {
 
 ### PHP MVC Framework - View (Bootstrap)
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```html
 <div class="col-lg-12 col-md-12 col-sm-12">
       <p>WIFI Suhuruliya modules are available in audiobook for .... </p>
       
-      
-           
-                    <div class="panel-group accordion" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse01">
-                                        <i class="switch fa fa-plus"></i>
-                                       Language : English
-                                    </a>
-                                </h4>
-                            </div>
-                           <div id="collapse01" class="panel-collapse collapse">
-                                <div class="panel-body" ><b>Book 1 (...) 
-                              </b></div>  <div><audio controls>
-                               <source src="/static/lib/bootstrap/mp3/Book_English_1.mp3" type="audio/mpeg" />
-					...
-				
+	......
+                   <div class="panel-group accordion" id="accordion">
+                       <div class="panel panel-default">
+                           <div class="panel-heading">
+                               <h4 class="panel-title">
+                                   <a data-toggle="collapse" data-parent="#accordion" href="#collapse01">
+                                       <i class="switch fa fa-plus"></i>
+                                      Language : English
+                                   </a>
+                               </h4>
+                           </div>
+                          <div id="collapse01" class="panel-collapse collapse">
+                               <div class="panel-body" ><b>Book 1 (...) 
+                             </b></div>  <div><audio controls>
+                              <source src="/static/lib/bootstrap/mp3/Book_English_1.mp3" type="audio/mpeg" />
+				......			
 				</div>
                         </div>
                     </div>
