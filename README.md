@@ -98,7 +98,7 @@ Say what the step will be
 
 ```html
 <div class="col-lg-12 col-md-12 col-sm-12">
-      <p>WIFI Suhuruliya modules are available in audiobook for continued and self-learning without concerns on space and time. </p>
+      <p>WIFI Suhuruliya modules are available in audiobook for .... </p>
       
       
            
@@ -113,7 +113,7 @@ Say what the step will be
                                 </h4>
                             </div>
                            <div id="collapse01" class="panel-collapse collapse">
-                                <div class="panel-body" ><b>Book 1 (Core Content: Women’s Empowerment & Sustainable Development Goals) 
+                                <div class="panel-body" ><b>Book 1 (...) 
                               </b></div>  <div><audio controls>
                                <source src="/static/lib/bootstrap/mp3/Book_English_1.mp3" type="audio/mpeg" />
 					...
