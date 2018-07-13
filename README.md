@@ -97,38 +97,30 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```html
-<!-- Navigation -->
-	<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    		<div class="container-fluid">
-    			
-    			<div class="navbar-header page-scroll">
-    				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-    					<span class="sr-only">Toggle navigation</span>
-    					<span class="icon-bar"></span>
-    					<span class="icon-bar"></span>
-    					<span class="icon-bar"></span>
-    				</button>
-    				<a href="/main/"><img src="/static/lib/bootstrap/img/logo.jpg"></a>
-    			</div>
-    			<!-- Collect the nav links, forms, and other content for toggling -->
-    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    				<ul class="nav navbar-nav navbar-right ">
-    					<li>
-    						<a href="/main/">HOME</a>
-    					</li>
-    					<li class="dropdown">
-    						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ABOUT<span class="caret"></span></a>
-    						<ul class="dropdown-menu" role="menu">
-    							<li>
-    								<a href="/about/aboutus/">What is WIFI? </a>
-    							</li>
-    							<li class="divider"></li>
-    							<li>
-    								<a href="/about/aboutus_2/">What is WIFI InfoBank?</a>
-    							</li>
-    							<li class="divider"></li>
-    						</ul>
-    					</li>
+<div class="col-lg-12 col-md-12 col-sm-12">
+      <p>WIFI Suhuruliya modules are available in audiobook for continued and self-learning without concerns on space and time. </p>
+      
+      
+           
+                    <div class="panel-group accordion" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse01">
+                                        <i class="switch fa fa-plus"></i>
+                                       Language : English
+                                    </a>
+                                </h4>
+                            </div>
+                           <div id="collapse01" class="panel-collapse collapse">
+                                <div class="panel-body" ><b>Book 1 (Core Content: Women’s Empowerment & Sustainable Development Goals) 
+                              </b></div>  <div><audio controls>
+                               <source src="/static/lib/bootstrap/mp3/Book_English_1.mp3" type="audio/mpeg" />
+					...
+				
+				</div>
+                        </div>
+                    </div>
 
 ```
 xxx
