@@ -1,7 +1,5 @@
-# Bootstrap_MVC
 
-
-## Screenshot
+## Screenshot - Women ICT Frontier Initiative InfoBank
 
 ![WIFI_Infobank_screenshot](./WIFI_Infobank_screenshot.jpg)
 
