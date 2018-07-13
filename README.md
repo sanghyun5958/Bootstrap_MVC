@@ -22,10 +22,6 @@ URL : http://wifiinfobank.unapcict.org
 ## Programming code description
 ### PHP MVC Framework - Controller
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Materials extends CI_Controller {
@@ -66,8 +62,6 @@ class Materials extends CI_Controller {
 ?>
 
 ```
-
-And there are more php files by category
 
 ```php
 <?php
@@ -121,10 +115,6 @@ class Board extends CI_Controller {
 ```
 
 ### PHP MVC Framework - Model
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
 
 ```php
  
