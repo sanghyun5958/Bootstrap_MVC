@@ -5,9 +5,9 @@
 
 ![WIFI_Infobank_screenshot](./WIFI_Infobank_screenshot.jpg)
 
-## About project
+## The purpose of the project
 
-I designed UI mockups and implemented end-to-end web applications using the CodeIgniter MVC framework and bootstrap front-end framework;
+To share event informations and learning ICT skills for women’s entrepreneur in Asia and the Pacific by developing responsive and mobile-friendly website.
 
 
 ## Built With
