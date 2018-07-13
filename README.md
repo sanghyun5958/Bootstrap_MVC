@@ -12,7 +12,7 @@ To promote the events launched in 8 different countries and share e-learning ICT
 ## My part of the project
 
 * MVC Design Pattern for PHP* - I separated the app data and business logic (model) from the presentation (view) by developing with CodeIgniter MVC pattern.
-* *Front-end web UI Framework* - I designed this entire app with Bootstrap responsive grid system, prebuilt components, and plugins built on jQuery.
+* *Front-end web UI Framework* - I designed this entire app with Bootstrap responsive grid system, prebuilt components, and plugins built on jQuery. I also used the html5 feature.
 * *Photoshop CS6* -  I created and modified web site images using Photoshop.
 
 URL : http://wifiinfobank.unapcict.org
